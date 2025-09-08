@@ -1,0 +1,11 @@
+[project]
+name = "ai-trip-planner"
+version = "0.1.0"
+description = "AI based Trip Planner System: Plan a Trip for any city world wide with Real Time Data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "langgraph>=0.6.7",
+]
